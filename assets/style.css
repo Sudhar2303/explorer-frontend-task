@@ -14,7 +14,6 @@
    display: flex;
    height: 80px;
    align-items: center;
-   justify-content: space-between;
    color: rgb(151, 13, 94);
 }
 #heading
@@ -34,10 +33,6 @@
     font-style: normal;
     font-size: 14px;
     font-weight: 600;
-}
-.menu p
-{
-    margin: 0 8px;
 }
 .landing-section
 {
@@ -73,7 +68,6 @@
 #bike-image
 {
     width: 65%;
-    height: 70%;
     position: relative;
     z-index: 1;
 }
@@ -96,7 +90,7 @@
 .button
 {
     width: 30%;
-    height: 30px;
+    padding: 3% 1%;
     color: white;
     background-color: rgb(139, 15, 87);
     border: 1px solid rgb(139, 15, 87);
@@ -121,26 +115,25 @@
 .quotes
 {
     font-size: 20px;
-    font-weight: 150;
+    font-weight: 200;
 }
 .destination-container
 {
     width: 100%;
-    height: 1430px;
+    /* height: 1430px; */
     display: flex;
     flex-wrap: wrap;
-    padding: 3% 0;
+    padding-top: 3%;
     justify-content: space-between;
 }
 .destination-container-elements
 {
     width: 32%;
-    height: 45%; 
+    margin-bottom: 5%;
 }
 .destination-image
 {
     width: 100%;
-    height: 45%;
 }
 .destination-heading
 {
@@ -170,7 +163,6 @@
 .contactUs-container
 {
     width: 45%;
-    height: 700px;
     margin: 0% auto;
     padding: 5% 0;
 }
@@ -186,13 +178,13 @@
 .contactUs-form-container input
 {
     width: 100%;
-    height: 40px;
+    height: 20%;
     padding: 10px;
 }
 .contactUs-form-container select
 {
     width: 100%;
-    height: 40px;
+    height: 20%;
     padding: 10px;
 }
 .form-group
